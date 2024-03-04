@@ -1,0 +1,42 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+.todoList form {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px;
+  background-color: #888;
+}
+.orderList {
+  flex-direction: column;
+  background-color: rgb(92, 88, 84);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0;
+  color: aliceblue;
+}
+
+input {
+  border-radius: 10px;
+  padding: 20px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 20px;
+}
+
+h2 {
+  font-size: xx-large;
+  font-weight: 900;
+  font-style: italic;
+  margin: 0px;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(166, 105, 44);
+}
